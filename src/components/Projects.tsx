@@ -43,7 +43,7 @@ const Projects: React.FC = () => {
       category: 'AI/ML',
       technologies: ['PineCone', 'React', 'Twilio', 'Node.js' ,'Ngrok', 'OpenAI'],
       liveUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/Sarabjot01/Project-backend',
     },
     {
       id: 5,
@@ -52,8 +52,8 @@ const Projects: React.FC = () => {
       image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
       category: 'Design',
       technologies: ['React', 'Tailwind', 'Framer Motion'],
-      liveUrl: '#',
-      githubUrl: '#',
+      liveUrl: 'https://sarabjot01.netlify.app/',
+      githubUrl: 'https://github.com/Sarabjot01/Portfolio',
     },
     {
       id: 6,
