@@ -133,6 +133,8 @@ const Projects: React.FC = () => {
                   </a>
                   <a
                     href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-3 bg-white rounded-full text-gray-900 hover:bg-gray-100 transition-colors duration-200 shadow-lg"
                   >
                     <Github size={18} />
