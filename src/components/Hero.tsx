@@ -84,13 +84,14 @@ const Hero: React.FC = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </button>
           
-          <button
-            onClick={() => scrollToSection('contact')}
+          <a
+            href="https://i.ibb.co/LXwjZNMc/Resume.jpg"
+            download="Resume.jpg"
             className="group px-8 py-4 border-2 border-gray-300 text-gray-900 rounded-full font-medium text-lg hover:border-black hover:bg-black hover:text-white transition-all duration-300 flex items-center gap-3"
           >
             <Download size={18} className="group-hover:animate-bounce" />
             Download Resume
-          </button>
+          </a>
         </div>
 
         {/* Enhanced Tech Stack */}

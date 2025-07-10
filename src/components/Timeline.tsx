@@ -9,12 +9,12 @@ const Timeline: React.FC = () => {
       company: 'VenturePact.com',
       location: 'new York, NY',
       period: '2025 - Present',
-      description: 'Leading development of scalable web applications and mentoring junior developers. Architected microservices infrastructure serving 1M+ users.',
+      description: 'Developing of scalable web applications and collaborting with Senior developers. Architected microservices infrastructure serving 1M+ users.',
       achievements: [
-        'Led team of 8 developers',
-        'Reduced load times by 60%',
-        'Implemented CI/CD pipeline',
-        'Mentored 5 junior developers'
+        'Under the lead of Senior developers',
+        'Reduced load times by 20%',
+        'Helped in Implementing CI/CD pipeline',
+        'Getting Mentored under Senior developers'
       ],
     },
     {
@@ -25,10 +25,10 @@ const Timeline: React.FC = () => {
       period: '2025 - Present',
       description: 'Developed and maintained your own product and multiple projects using React, Node.js, and cloud technologies.',
       achievements: [
-        'Built 15+ client projects',
-        'Improved performance by 40%',
+        'Built various client projects',
+        'Improved performance by 20%',
         'Integrated payment systems',
-        'Maintained 99.9% uptime'
+        'Maintained outstanding uptime'
       ],
     },
     {
@@ -39,7 +39,7 @@ const Timeline: React.FC = () => {
       period: '2021 - 2025',
       description: 'Specialized in software engineering,Data Science and human-computer interaction. Graduated with honors.',
       achievements: [
-        'GPA: 7.2/10.0',
+        'GPA: 7.24/10.0',
         'Hackathon Participantions',
         'Research publication',
         'Teaching assistant'
