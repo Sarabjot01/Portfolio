@@ -26,7 +26,7 @@ const About: React.FC = () => {
   ];
 
   return (
-    <section id="about" className="py-24 bg-gray-50">
+    <section id="about" className="pt-40 pb-24 bg-gray-50">
       <div className="max-w-6xl mx-auto px-6">
         {/* Apple-style Section Header */}
         <div className="text-center mb-20">

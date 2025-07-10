@@ -11,7 +11,7 @@ const Skills: React.FC = () => {
       skills: [
         { name: 'React', level: 95 },
         { name: 'TypeScript', level: 90 },
-        { name: 'Vue.js', level: 10 },
+        { name: 'HTML', level: 95 },
         { name: 'CSS', level: 92 },
       ],
     },
