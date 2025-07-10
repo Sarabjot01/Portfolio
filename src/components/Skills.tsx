@@ -11,8 +11,8 @@ const Skills: React.FC = () => {
       skills: [
         { name: 'React', level: 95 },
         { name: 'TypeScript', level: 90 },
-        { name: 'Vue.js', level: 85 },
-        { name: 'Tailwind CSS', level: 92 },
+        { name: 'Vue.js', level: 10 },
+        { name: 'CSS', level: 92 },
       ],
     },
     {
@@ -30,19 +30,19 @@ const Skills: React.FC = () => {
       icon: Palette,
       skills: [
         { name: 'Figma', level: 90 },
-        { name: 'Adobe Creative Suite', level: 85 },
+        { name: 'Adobe Creative Suite', level: 33 },
         { name: 'Prototyping', level: 88 },
         { name: 'User Research', level: 82 },
       ],
     },
     {
-      title: 'DevOps & Tools',
+      title: 'AI/ML & Cloud',
       icon: Cloud,
       skills: [
-        { name: 'Docker', level: 85 },
-        { name: 'AWS', level: 80 },
+        { name: 'Docker', level: 60 },
+        { name: 'AI', level: 97 },
         { name: 'Git', level: 95 },
-        { name: 'CI/CD', level: 82 },
+        { name: 'ML', level: 99 },
       ],
     },
   ];
@@ -53,7 +53,7 @@ const Skills: React.FC = () => {
     { name: 'Node.js', icon: '🟢', level: 88 },
     { name: 'Python', icon: '🐍', level: 85 },
     { name: 'Docker', icon: '🐳', level: 85 },
-    { name: 'AWS', icon: '☁️', level: 80 },
+    { name: 'AI/ML', icon: '🤖', level: 97 },
     { name: 'Figma', icon: '🎨', level: 90 },
     { name: 'MongoDB', icon: '🍃', level: 80 },
   ];
