@@ -32,20 +32,6 @@ const Timeline: React.FC = () => {
       ],
     },
     {
-      type: 'education',
-      title: 'Batchlors of Computer Science',
-      company: 'Lovely Professional University',
-      location: 'Jalandhar, Punjab',
-      period: '2021 - 2025',
-      description: 'Specialized in software engineering,Data Science and human-computer interaction. Graduated with honors.',
-      achievements: [
-        'GPA: 7.24/10.0',
-        'Hackathon Participantions',
-        'Research publication',
-        'Teaching assistant'
-      ],
-    },
-    {
       type: 'work',
       title: 'Data Science Intern',
       company: 'GeeksforGeeks',
@@ -57,6 +43,20 @@ const Timeline: React.FC = () => {
         'Collaborated with founders',
         'Gained experience in startup culture',
         'Contributed to product roadmap'
+      ],
+    },
+    {
+      type: 'education',
+      title: 'Bachelors of Computer Science',
+      company: 'Lovely Professional University || Upgrad',
+      location: 'Jalandhar, Punjab',
+      period: '2021 - 2025',
+      description: 'Specialized in software engineering,Data Science and human-computer interaction. Graduated with honors.',
+      achievements: [
+        'GPA: 7.24/10.0',
+        'Hackathon Participantions',
+        'Research publication',
+        'Teaching assistant'
       ],
     },
   ];

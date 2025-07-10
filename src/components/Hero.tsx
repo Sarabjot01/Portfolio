@@ -87,6 +87,8 @@ const Hero: React.FC = () => {
           <a
             href="https://i.ibb.co/LXwjZNMc/Resume.jpg"
             download="Resume.jpg"
+            target="_blank"
+            rel="noonpener noreferrer"
             className="group px-8 py-4 border-2 border-gray-300 text-gray-900 rounded-full font-medium text-lg hover:border-black hover:bg-black hover:text-white transition-all duration-300 flex items-center gap-3"
           >
             <Download size={18} className="group-hover:animate-bounce" />

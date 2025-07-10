@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
       category: 'Web App',
       technologies: ['React', 'Redux', 'TypeScript', 'JavaScript', 'Node.js', 'MongoDB', 'Express', 'Redis', 'React Query'],
       liveUrl: 'https://chatbotbuilder.net/',
-      githubUrl: 'github.com',
+      githubUrl: 'https://github.com/Sarabjot01',
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const Projects: React.FC = () => {
       category: 'Web App',
       technologies: ['React', 'Redux', 'TypeScript', 'Node.js', 'MongoDB', 'Express', 'Redis', 'React Query'],
       liveUrl: 'https://omniengage.co/ai-sdr-sales-agent',
-      githubUrl: 'github.com',
+      githubUrl: 'https://github.com/Sarabjot01',
     },
     {
       id: 3,
@@ -32,8 +32,8 @@ const Projects: React.FC = () => {
       image: 'https://images.pexels.com/photos/935979/pexels-photo-935979.jpeg?auto=compress&cs=tinysrgb&w=800',
       category: 'Web App',
       technologies: ['Node js', 'MongoDB', 'Express', 'JavaScript'],
-      liveUrl: '#',
-      githubUrl: '#',
+      liveUrl: 'https://inshorts.com/en/read',
+      githubUrl: 'https://github.com/Sarabjot01',
     },
     {
       id: 4,
@@ -42,7 +42,7 @@ const Projects: React.FC = () => {
       image: 'https://images.pexels.com/photos/15940006/pexels-photo-15940006.jpeg?auto=compress&cs=tinysrgb&w=800',
       category: 'AI/ML',
       technologies: ['PineCone', 'React', 'Twilio', 'Node.js' ,'Ngrok', 'OpenAI'],
-      liveUrl: '#',
+      liveUrl: '',
       githubUrl: 'https://github.com/Sarabjot01/Project-backend',
     },
     {
@@ -63,7 +63,7 @@ const Projects: React.FC = () => {
       category: 'AI/ML',
       technologies: ['Deep Learning', 'Python', 'UAVs', 'ML'],
       liveUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/Sarabjot01',
     },
   ];
 
@@ -125,6 +125,8 @@ const Projects: React.FC = () => {
                 <div className="absolute inset-0 flex items-center justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a
                     href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-3 bg-white rounded-full text-gray-900 hover:bg-gray-100 transition-colors duration-200 shadow-lg"
                   >
                     <ExternalLink size={18} />
