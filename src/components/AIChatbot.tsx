@@ -53,15 +53,15 @@ const AIChatbot: React.FC = () => {
     }
     
     if (message.includes('project') || message.includes('portfolio') || message.includes('work')) {
-      return "Sarab has built amazing projects including an Voice Assistant ChatBots with advanced features, a collaborative Task Management App, a beautiful Weather Dashboard, an AI Chatbot Interface, and a Crypto Trading Platform. Each project showcases his expertise in modern web technologies and user experience design.";
+      return "Sarab has built amazing projects including an Voice Assistant ChatBots with advanced features, a collaborative Task Management App, an AI Chatbot Interface, and other projects which are aleardy mentioned in his resume/portfolio. Each project showcases his expertise in modern web technologies and user experience design.";
     }
     
     if (message.includes('contact') || message.includes('reach') || message.includes('hire')) {
-      return "You can reach Sarab at sarabsingh676@gmail.com or call him at +91 6239240395. He's based in San Francisco, CA and is currently available for new projects. You can also connect with him on LinkedIn, GitHub, or Twitter. He's always excited to discuss new opportunities!";
+      return "You can reach Sarab at sarabsingh676@gmail.com or call him at +91 6239240395. He's based in Chandigarh,Punjab,India and is currently available for new projects. You can also connect with him on LinkedIn, GitHub, or Twitter. He's always excited to discuss new opportunities!";
     }
     
     if (message.includes('education') || message.includes('study') || message.includes('degree')) {
-      return "Sarab holds a Master of Computer Science from Stanford University (2018-2020) where he graduated with honors (GPA: 3.9/4.0). He specialized in software engineering and human-computer interaction, and even worked as a teaching assistant.";
+      return "Sarab holds a Batchlers of Computer Science from Lovely Professional University (2021-2025) where he graduated with honors (GPA: 7.24/10.0). He specialized in software engineering, data-science and human-computer interaction, and even worked as a teaching assistant at coding ninja as an Intern.";
     }
     
     if (message.includes('hello') || message.includes('hi') || message.includes('hey')) {
