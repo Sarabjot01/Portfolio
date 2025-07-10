@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center relative overflow-hidden pt-11"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden pt-11 pb-24"
     >
       {/* Interactive Gradient Background */}
       <div 
